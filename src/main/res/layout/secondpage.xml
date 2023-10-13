@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/topImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_123764_275529_p68kn6_486_02_1"
+        android:scaleType="centerCrop"
+    />
+
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/w2c___1__1" />
+
+    <ImageView
+        android:id="@+id/bottomImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/_87669_12218_no043a_1"
+        android:scaleType="centerCrop"
+    />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#843434"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:shadowColor="#843434"
+        android:height="44dp"
+        android:width="277dp"
+        android:fontFamily="@font/lato_bold"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:height="44dp"
+        android:width="277dp"
+        android:background="#843434"
+        android:textColor="@color/white"
+        android:text="Login"
+        android:fontFamily="@font/lato_bold"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="485dp"
+
+        android:text="Welcome to the city!"
+        android:textColor="#843434"
+        android:textSize="30dp"
+        android:fontFamily="@font/lato_bold"
+        android:textStyle="bold" />
+
+</RelativeLayout>
